@@ -19,7 +19,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".LogInActivity" />
-        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".SignUpActivity" />
+        <activity
+            android:name=".ContinuousMoneyChangeActivity"
+            android:label="@string/title_activity_continuous_money_change"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainPageActivity"></activity>
     </application>
 
 </manifest>

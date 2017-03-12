@@ -34,4 +34,5 @@
         <item>The amount of money that a person has in his bank account is not determined by his starting capital, but by his knowledge about money and his ability to manage it properly - Sunday Adelaja</item>
         <item>Money was never a big motivation for me, except as a way to keep score. The real excitement is playing the game. - Donald Trump</item>
     </string-array>
+    <string name="title_activity_continuous_money_change">ContinuousMoneyChangeActivity</string>
 </resources>
