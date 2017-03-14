@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Appdosier2</string>
+    <string name="app_name">Money Matter$</string>
     <string name="action_settings">Settings</string>
     <string name="password_hint">Password</string>
     <string name="email_hint">Email</string>
@@ -35,4 +35,5 @@
         <item>Money was never a big motivation for me, except as a way to keep score. The real excitement is playing the game. - Donald Trump</item>
     </string-array>
     <string name="title_activity_continuous_money_change">ContinuousMoneyChangeActivity</string>
+    <string name="title_activity_quotes">Quotes</string>
 </resources>

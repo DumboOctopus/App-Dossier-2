@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Income After Deductions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aftDeductions2" />
+
+    <AutoCompleteTextView
+        android:text="Water Bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wb" />
+
+    <AutoCompleteTextView
+        android:text="Electric Bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eb" />
+
+    <AutoCompleteTextView
+        android:text="Gas Bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gb" />
+
+    <AutoCompleteTextView
+        android:text="Phone Bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pb" />
+
+    <AutoCompleteTextView
+        android:text="Cable Bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb" />
+
+    <AutoCompleteTextView
+        android:text="Internet Bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ib" />
+
+    <AutoCompleteTextView
+        android:text="Credit Card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc" />
+
+    <AutoCompleteTextView
+        android:text="Child Support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cs" />
+
+    <AutoCompleteTextView
+        android:text="Alimony"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/al" />
+
+    <AutoCompleteTextView
+        android:text="Sanitary/Hygenic Costs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chc" />
+
+    <CheckedTextView
+        android:text="Income After Some Expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iase" />
+
+    <Button
+        android:text="Next"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nexter2" />
+</LinearLayout>

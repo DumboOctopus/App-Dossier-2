@@ -10,17 +10,42 @@
     tools:context="com.example.neilprajapati.appdosier2.MainPageActivity">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
+        android:gravity="center"
         android:layout_height="match_parent">
 
-        <Button
-            android:text="Add Amount"
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/addIncome"
+            android:background="@color/colorNeutralAccent"
+            android:textSize="50dp"
+            android:text="Money Matter$"
+            />
+
+        <Button
+            android:text="One Time Money Change"
+            android:layout_height="100dp"
+            android:id="@+id/onetime"
             android:elevation="0dp"
             android:layout_weight="0.64"
-            android:layout_width="wrap_content" />
+            android:layout_width="200dp" />
+
+        <Button
+            android:text="Continuous Time Money Change"
+            android:layout_height="50dp"
+            android:id="@+id/cont"
+            android:elevation="0dp"
+            android:layout_weight="0.64"
+            android:layout_width="200dp" />
+
+        <Button
+            android:text="Logout"
+            android:layout_height="50dp"
+            android:id="@+id/logout"
+            android:elevation="0dp"
+            android:layout_weight="0.64"
+            android:layout_width="200dp" />
 
 
     </LinearLayout>

@@ -3,6 +3,8 @@ package com.example.neilprajapati.appdosier2;
 import com.google.firebase.database.Exclude;
 
 import java.util.Date;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Represents period money changes such as taxes and jobs
@@ -94,4 +96,26 @@ public class ContinuousMoneyChange implements Comparable<ContinuousMoneyChange>{
     public int compareTo(ContinuousMoneyChange o) {
         return this.getDate().compareTo(o.getDate());
     }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        ContinuousMoneyChange that = (ContinuousMoneyChange) o;
+
+        if (Double.compare(that.amountChange, amountChange) != 0) return false;
+        if (Double.compare(that.timePeriodOfChange, timePeriodOfChange) != 0) return false;
+        if (!tag.equals(that.tag)) return false;
+        return date.equals(that.date);
+
+    }
+
+    @Override
+    public String toString() {
+        return tag + " " + amountChange + "/"+timePeriodOfChange;
+    }
+
+
 }

@@ -137,22 +137,7 @@ public class MainActivity extends AppCompatActivity {
                }
            });
 
-           final Button logoutButton = (Button) findViewById(R.id.logoutButton);
-           logoutButton.setOnClickListener(new View.OnClickListener() {
-                /**
-                 * Logs out the current user when the button is pressed.
-                 *
-                 * @param v the current view
-                **/
-               @Override
-               public void onClick(View v) {
-                   mFirebaseAuth.signOut();
-                   Intent intent = new Intent(MainActivity.this, LogInActivity.class);
-                   intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                   intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                   startActivity(intent);
-               }
-           });
+
 
        }
 

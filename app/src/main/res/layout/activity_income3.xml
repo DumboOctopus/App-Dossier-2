@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Income After Some Expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iase2" />
+
+    <AutoCompleteTextView
+        android:text="Mortgage or Rent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mor" />
+
+    <AutoCompleteTextView
+        android:text="Student Loan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sl" />
+
+    <AutoCompleteTextView
+        android:text="Property Tax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pt" />
+
+    <AutoCompleteTextView
+        android:text="HOA/MR/Maintenance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hmm" />
+
+    <AutoCompleteTextView
+        android:text="Property Insurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pi" />
+
+    <AutoCompleteTextView
+        android:text="Car Insurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ci" />
+
+    <AutoCompleteTextView
+        android:text="Food Costs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fc" />
+
+    <RadioButton
+        android:text="Conservative Emergency Fund (10%)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cef" />
+
+    <RadioButton
+        android:text="Moderate Emergency Fund (20%)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cef2" />
+
+    <RadioButton
+        android:text="Aggressive Emergency Fund (50%)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cef3" />
+
+    <CheckedTextView
+        android:text="Income After All Expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iaae" />
+
+    <Button
+        android:text="Add to Account"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+
+</LinearLayout>

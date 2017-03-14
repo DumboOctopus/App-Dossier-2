@@ -122,12 +122,7 @@
                 android:id="@+id/quoteBox"
                 android:layout_weight="1" />
 
-            <Button
-                android:text="Logout"
-                android:layout_height="wrap_content"
-                android:id="@+id/logoutButton"
-                android:elevation="0dp"
-                android:layout_width="wrap_content" />
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

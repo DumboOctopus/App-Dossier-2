@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AutoCompleteTextView
+        android:text="Income Before Deductions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/befDeductions" />
+
+    <AutoCompleteTextView
+        android:text="Health Insurance/Medical Tax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/medical" />
+
+    <AutoCompleteTextView
+        android:text="Medicare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/medicare" />
+
+    <AutoCompleteTextView
+        android:text="Social Security Tax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ss" />
+
+    <AutoCompleteTextView
+        android:text="401K"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kk" />
+
+    <AutoCompleteTextView
+        android:text="California SUI4SDI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cal" />
+
+    <AutoCompleteTextView
+        android:text="Dental Insurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dt" />
+
+    <AutoCompleteTextView
+        android:text="Eye Insurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et" />
+
+    <AutoCompleteTextView
+        android:text="State Income Tax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sit" />
+
+    <AutoCompleteTextView
+        android:text="Federal Income Tax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fit" />
+
+    <CheckedTextView
+        android:text="Income After Deductions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aftDeductions"
+        android:layout_weight="0.16" />
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nexter" />
+
+</LinearLayout>
